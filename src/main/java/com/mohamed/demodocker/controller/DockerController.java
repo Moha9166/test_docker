@@ -11,4 +11,8 @@ public class DockerController {
     public String dockerDemo(){
         return "buenos dias";
     }
+    @GetMapping("/")
+    public String dockerDemo1(){
+        return "buenos dias main";
+    }
 }
