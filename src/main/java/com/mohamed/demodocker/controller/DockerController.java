@@ -9,6 +9,6 @@ public class DockerController {
 
     @GetMapping("/docker")
     public String dockerDemo(){
-        return "De spring a docker";
+        return "buenos dias";
     }
 }
